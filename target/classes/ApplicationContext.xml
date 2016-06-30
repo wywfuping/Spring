@@ -8,12 +8,60 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="userDao1" class="com.yawei.dao.UserDaoImp1" />
+    <bean id="bookService" class="com.yawei.service.BookService">
+        <property name="bookname" value="我喜欢这个功利的世界"/>
+        <property name="num" value="1000"/>
+        <property name="lists">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+                <value>list3</value>
+            </list>
+        </property>
+        <property name="sets">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+                <value>set3</value>
+            </set>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="key1" value="value1"/>
+                <entry key="key2" value="value2"/>
+                <entry key="key3" value="value3"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="k1" >v1</prop>
+                <prop key="k2" >v2</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--AOP-->
+    <bean id="myAdivce" class="com.yawei.aop.MyAdvice"/>
+
+    <aop:config>
+        <aop:aspect ref="myAdivce">
+            <aop:pointcut id="myPointCut" expression="execution(* com.yawei.dao..*.*(..))"/>
+            <aop:around method="aroundAdvice" pointcut-ref="myPointCut"/>
+            <aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>
+            <aop:after-returning method="afAdvice" pointcut-ref="myPointCut"/>
+            <aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointCut" throwing="e"/>
+            <aop:after method="finalAdvice" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+
+
+
+    <bean id="userDao" class="com.yawei.dao.UserDaoImp1" />
     <bean id="userDao2" class="com.yawei.dao.UserDaoImp2" />
 
     <!--自动注入-->
 
-    <bean id="userService" class="com.yawei.service.UserService" autowire="constructor"/>
+    <!--<bean id="userService" class="com.yawei.service.UserService" autowire="constructor"/>-->
 
     <!--<bean id="userService" class="com.yawei.service.UserService" autowire="byName"/>-->
 
