@@ -46,6 +46,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis/src/test/java/com/yawei/test/MybatisTestCase.java" afterPath="$PROJECT_DIR$/../mybatis/src/test/java/com/yawei/test/MybatisTestCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../mybatis/target/classes/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis/target/classes/mybatis.xml" afterPath="$PROJECT_DIR$/../mybatis/target/classes/mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/.idea/artifacts/webapp_war_exploded.xml" afterPath="$PROJECT_DIR$/../webapp/.idea/artifacts/webapp_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../webapp/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../webapp/.idea/vcs.xml" />
@@ -89,21 +90,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApplicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApplicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41009852">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state vertical-scroll-proportion="-1.7209302">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserDaoImp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDaoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.38947368">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -129,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDaoImp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -256,116 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yawei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yawei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -835,7 +727,7 @@
       <created>1467249949639</created>
       <option name="number" value="Default" />
       <updated>1467249949639</updated>
-      <workItem from="1467249955185" duration="7097000" />
+      <workItem from="1467249955185" duration="7846000" />
     </task>
     <servers />
   </component>
@@ -872,10 +764,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7097000" />
+    <option name="totallyTimeSpent" value="7846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1932" height="1048" extended-state="0" />
+    <frame x="-9" y="0" width="1932" height="1048" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -962,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17309941">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yawei/test/UserTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -980,10 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state vertical-scroll-proportion="-1.7209302">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -999,22 +883,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDaoImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21637426">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yawei/dao/UserDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38947368">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41009852">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
