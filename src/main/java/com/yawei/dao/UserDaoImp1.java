@@ -1,6 +1,6 @@
 package com.yawei.dao;
 
-public class UserDaoImp implements UserDao{
+public class UserDaoImp1 implements UserDao{
 
     @Override
     public void sayHello() {

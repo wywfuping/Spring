@@ -11,8 +11,11 @@ public class UserService {
     }
 
     public void sayHi(){
-        System.out.println("你好你好……");
-
+        //System.out.println("你好你好……");
         userDao.sayHello();
+    }
+
+    public UserService(UserDao userDao){
+        this.userDao=userDao;
     }
 }

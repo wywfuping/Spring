@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="userDao" class="com.yawei.dao.UserDaoImp" />
-    <alias name="userDao" alias="myDao"/>
+    <bean id="userDao1" class="com.yawei.dao.UserDaoImp1" />
+    <bean id="userDao2" class="com.yawei.dao.UserDaoImp2" />
+
+    <!--自动注入-->
+
+    <bean id="userService" class="com.yawei.service.UserService" autowire="constructor"/>
+
+    <!--<bean id="userService" class="com.yawei.service.UserService" autowire="byName"/>-->
+
+    <!--构造方法注入-->
+
+   <!-- <bean id="userService" class="com.yawei.service.UserService">
+        <constructor-arg type="com.yawei.dao.UserDao" ref="userDao2"/>
+    </bean>-->
+
+    <!--<bean id="userService" class="com.yawei.service.UserService">
+        <constructor-arg index="0" ref="userDao2"/>
+    </bean>-->
+
+    <!--<bean id="userService" class="com.yawei.service.UserService">
+        <constructor-arg name="userDao1" ref="userDao2"/>
+        <constructor-arg name="userDao" ref="userDao1"/>
+    </bean>-->
+
+    <!--set方法注入-->
+    <!--<bean name="userService" class="com.yawei.service.UserService" p:userDao-ref="userDao2"/>-->
+
+    <!--<bean id="userService" class="com.yawei.service.UserService">
+        <property name="userDao">
+            <ref bean="userDao1"/>
+        </property>
+    </bean>-->
 
     <!--<bean name="userService" class="com.yawei.service.UserService">
-        <property name="userDao" ref="userDao"/>
+        <property name="userDao" ref="userDao2"/>
     </bean>-->
 
 </beans>

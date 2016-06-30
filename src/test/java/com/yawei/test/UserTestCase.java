@@ -11,11 +11,11 @@ public class UserTestCase {
     public void testUserDao(){
         ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
-        /*UserService userService = (UserService) context.getBean("userService");
-        userService.sayHi();*/
+        UserService userService = (UserService) context.getBean("userService");
+        userService.sayHi();
 
-        UserDao userDao = (UserDao) context.getBean("myDao");
-        userDao.sayHello();
+        /*UserDao userDao = (UserDao) context.getBean("userDao");
+        userDao.sayHello();*/
     }
 
 
