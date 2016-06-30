@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDao" class="com.yawei.dao.UserDao" />
+    <bean id="userDao" class="com.yawei.dao.UserDaoImp" />
     <alias name="userDao" alias="myDao"/>
 
     <!--<bean name="userService" class="com.yawei.service.UserService">
