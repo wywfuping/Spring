@@ -1,4 +1,4 @@
-package com.yawei;
+package com.yawei.dao;
 
 import com.yawei.dao.UserDao;
 import com.yawei.pojo.User;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:ApplicationContext.xml")
-public class UserDaoTestCae {
+public class UserDaoTestCase {
     @Inject
     private UserDao userDao;
 
