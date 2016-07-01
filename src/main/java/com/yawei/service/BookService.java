@@ -3,11 +3,13 @@ package com.yawei.service;
 
 import com.yawei.dao.UserDao;
 
+import javax.inject.Named;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+@Named
 public class BookService {
     private String bookname;
     private Integer num;

@@ -1,6 +1,8 @@
 package com.yawei.dao;
 
+import javax.inject.Named;
 
+@Named
 public class UserDaoImp2 implements UserDao{
 
     @Override

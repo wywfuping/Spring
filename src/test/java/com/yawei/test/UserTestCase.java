@@ -1,5 +1,6 @@
 package com.yawei.test;
 
+import com.yawei.aop.MyAdvice;
 import com.yawei.dao.UserDao;
 import com.yawei.service.BookService;
 import com.yawei.service.UserService;
@@ -12,13 +13,14 @@ public class UserTestCase {
     public void testUserDao(){
         ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
-        BookService bookService = (BookService) context.getBean("bookService");
-        bookService.showBook();
+       /* BookService bookService = (BookService) context.getBean("bookService");
+        bookService.showBook();*/
 
-       /* UserService userService = (UserService) context.getBean("userService");
-        userService.sayHi();*/
 
-        /*UserDao userDao = (UserDao) context.getBean("userDao");
+        UserService userService = (UserService) context.getBean("userService");
+        userService.sayHi();
+
+       /* UserDao userDao = (UserDao) context.getBean("userDao");
         userDao.sayHello();*/
     }
 
