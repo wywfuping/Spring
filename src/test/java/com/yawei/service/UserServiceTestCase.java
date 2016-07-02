@@ -1,6 +1,5 @@
 package com.yawei.service;
 
-import com.yawei.dao.UserDao;
 import com.yawei.pojo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +16,13 @@ public class UserServiceTestCase {
 
 
     @Test
-    public void testUserService(){
-      userService.login("王石","456789","14.11.11.22");
+    public void testUserService() {
+        User user = new User();
+
+        user.setUsername("王卫");
+        user.setPassword("789456");
+        user.setAddress("china");
+
+        userService.save(user);
     }
 }

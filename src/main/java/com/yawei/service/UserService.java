@@ -1,36 +1,33 @@
 package com.yawei.service;
 
-import com.yawei.dao.LoginLogDao;
-import com.yawei.dao.UserDao;
-import com.yawei.exception.SendEmailException;
-import com.yawei.exception.UserServiceException;
+import com.yawei.mapper.LoginLogMapper;
+import com.yawei.mapper.UserMapper;
 import com.yawei.pojo.LoginLog;
 import com.yawei.pojo.User;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;
 import javax.inject.Named;
+import java.util.List;
 
 @Named
+@Transactional
 public class UserService {
     @Inject
-    private LoginLogDao loginLogDao;
+    private UserMapper userMapper;
 
     @Inject
-    private UserDao userDao;
+    private LoginLogMapper loginLogMapper;
 
-//    @Transactional
-    public User login(String username, String password, String ip) {
-        User user = userDao.findByUserName(username);
+    public void save(User user) {
+        userMapper.save(user);
+    }
 
-        if (user != null && user.getPassword().equals(password)) {
-            loginLogDao.save(new LoginLog(user.getId(),ip));
-            SendEmailException.sendEmail();
+    public void findById(Integer id){
+        userMapper.findById(id);
+    }
 
-            return user;
-        }else{
-
-            throw new UserServiceException("账号或密码错误！");
-        }
+    public List<LoginLog> findByUserId(Integer userid){
+        return loginLogMapper.findByUserId(userid);
     }
 }
